@@ -1,0 +1,11 @@
+l={"name":"Durgesh","clg":"MRCE","DOB":{
+    "month":10,
+    "day":25,
+    "year":2004
+}}
+k=l.copy()
+print(l)
+print(k)
+l.update({"clg":"mrce"})
+print(l)
+print(k)
